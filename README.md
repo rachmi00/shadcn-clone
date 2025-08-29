@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Shadcn Dashboard Clone 🚀
 
-## Getting Started
+A feature-rich clone of the [shadcn/ui dashboard](https://ui.shadcn.com/examples/dashboard) built with Next.js 15 (App Router), TypeScript, and Tailwind CSS. This project demonstrates a modern web application setup, including internationalization with `next-international` and theme switching with `next-themes`.
 
-First, run the development server:
+**Preview:** 
+<img width="1903" height="945" alt="image" src="https://github.com/user-attachments/assets/751cee33-db0b-47b4-a4a1-3ae263fc425c" />
+<img width="1905" height="873" alt="image" src="https://github.com/user-attachments/assets/e623615a-8084-419b-9ba7-d8aacc00db53" />
+<img width="1787" height="757" alt="image" src="https://github.com/user-attachments/assets/f7b0fdde-8f93-4040-98a5-9b8bd067bfa2" />
+<img width="1913" height="920" alt="image" src="https://github.com/user-attachments/assets/0a9d78b4-6a56-4387-b92f-020c78ef82a6" />
+<img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/eff3ca89-eb0d-4aa7-8c3f-6588b94e8a3c" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-----
 
-## Learn More
+## Features ✨
 
-To learn more about Next.js, take a look at the following resources:
+  * **Modern Framework**: Built with **Next.js 15** using the App Router.
+  * **UI Components**: Beautifully crafted components from **shadcn/ui**.
+  * **Styling**: Styled with **Tailwind CSS** for a utility-first approach.
+  * **Type Safety**: Fully written in **TypeScript**.
+  * **Internationalization (i18n)**: Multi-language support powered by `next-international`.
+  * **Theme Switching**: Light and Dark mode support using `next-themes`.
+  * **State Persistence**: User's selected language and theme are saved to **Local Storage** and persist across sessions.
+  * **Responsive Design**: Looks great on all screen sizes, from mobile to desktop.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-----
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tech Stack 🛠️
 
-## Deploy on Vercel
+  * **Framework**: [Next.js](https://nextjs.org/)
+  * **Language**: [TypeScript](https://www.typescriptlang.org/)
+  * **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+  * **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
+  * **Internationalization**: [next-international](https://www.google.com/search?q=https://github.com/i18next/next-international)
+  * **Theming**: [next-themes](https://github.com/pacocoursey/next-themes)
+  * **Icons**: [Lucide React](https://lucide.dev/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-----
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Getting Started 🏁
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Make sure you have the following installed on your system:
+
+  * [Node.js](https://nodejs.org/en/) (v18.x or later)
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/rachmi00/shadcn-clone.git
+    cd dashboard-clone
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+
+3.  **Run the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+    The application should now be running on [http://localhost:3000].
+
+-----
+
+## Internationalization (i18n) 🌐
+
+This project uses `next-international` for handling translations.
+
+  * **Adding a New Language**:
+
+    1.  Create a new JSON file in the `i18n/locales/` directory (e.g., `es.json` for Spanish).
+    2.  Copy the key-value pairs from `en.json` and translate the values.
+    3.  Update the `i18n/index.ts` configuration file to include the new locale.
+
+  * **Using Translations**:
+    You can use the `useI18n` hook on the client side or `getI18n` on the server side to access your translation strings.
+
+    ```tsx
+    // Example in a client component
+    'use client';
+    import { useI18n } from '@/i18n/client';
+
+    export function Greeting() {
+      const { t } = useI18n();
+      return <h1>{t('dashboard.title')}</h1>;
+    }
+    ```
+
+
+## Acknowledgements 🙏
+
+  * A huge thank you to [shadcn](https://github.com/shadcn) for creating the incredible `shadcn/ui` component library.
+  * The Next.js and Vercel teams for their amazing work on the framework.
