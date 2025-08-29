@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react'
 import { useChangeLocale } from '@/locales/client'
-import { getStoredLocale, storeLocalePreference, detectBrowserLocale, SUPPORTED_LOCALES } from '@/lib/locale-utils'
+import { getStoredLocale, storeLocalePreference, detectBrowserLocale, SUPPORTED_LOCALES, type SupportedLocale } from '@/lib/locale-utils'
 
 interface LocaleProviderProps {
   children: React.ReactNode
@@ -26,7 +26,7 @@ export function LocaleProvider({ children }: LocaleProviderProps) {
       if (currentPathLocale !== savedLocale) {
         changeLocale(savedLocale)
       }
-    } else if (!SUPPORTED_LOCALES.includes(currentPathLocale as any)) {
+    } else if (!SUPPORTED_LOCALES.includes(currentPathLocale as SupportedLocale)) {
       // No saved preference and invalid/missing locale in URL
       // Detect from browser and set as preference
       const browserLocale = detectBrowserLocale()
@@ -35,10 +35,10 @@ export function LocaleProvider({ children }: LocaleProviderProps) {
       if (currentPathLocale !== browserLocale) {
         changeLocale(browserLocale)
       }
-    } else {
+    } else if (SUPPORTED_LOCALES.includes(currentPathLocale as SupportedLocale)) {
       // Valid locale in URL but no saved preference
       // Save current URL locale as preference
-      storeLocalePreference(currentPathLocale as any)
+      storeLocalePreference(currentPathLocale as SupportedLocale)
     }
   }, [changeLocale])
 

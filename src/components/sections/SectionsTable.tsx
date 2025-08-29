@@ -53,7 +53,22 @@ interface ShadcnDataTableProps {
 const reviewers = ["Eddie Lake", "Jamik Tashpulatov", "Rosa Martinez"];
 const TOTAL_ROWS = 68;
 
-function makeRows(total: number, sampleData?: any): Row[] {
+interface SampleData {
+  sectionTypes: {
+    narrative: string;
+    coverPage: string;
+    tableOfContents: string;
+    technicalContent: string;
+  };
+  headers: {
+    coverPage: string;
+    tableOfContents: string;
+    executiveSummary: string;
+    technicalApproach: string;
+  };
+}
+
+function makeRows(total: number, sampleData?: SampleData): Row[] {
   // Fallback values if content is not available
   const fallbackSampleTypes = ["Narrative", "Cover page", "Table of contents", "Technical content"];
   const fallbackHeaders = ["Cover page", "Table of contents", "Executive summary", "Technical approach"];
@@ -170,7 +185,8 @@ const Dropdown: React.FC<{
 // ---------------- MAIN DATA TABLE COMPONENT ----------------
 export default function ShadcnDataTable({ visibleColumns }: ShadcnDataTableProps) {
   const sectionsTable = useScopedI18n('sectionsTable');
-  const sampleData = {
+  
+  const sampleData = useMemo(() => ({
     sectionTypes: {
       narrative: sectionsTable('sampleData.sectionTypes.narrative'),
       coverPage: sectionsTable('sampleData.sectionTypes.coverPage'),
@@ -183,7 +199,8 @@ export default function ShadcnDataTable({ visibleColumns }: ShadcnDataTableProps
       executiveSummary: sectionsTable('sampleData.headers.executiveSummary'),
       technicalApproach: sectionsTable('sampleData.headers.technicalApproach')
     }
-  };
+  }), [sectionsTable]);
+  
   const allRows = useMemo(() => makeRows(TOTAL_ROWS, sampleData), [sampleData]);
   const [page, setPage] = useState(1);
   const [rowsPerPage, setRowsPerPage] = useState(10);
@@ -268,7 +285,11 @@ export default function ShadcnDataTable({ visibleColumns }: ShadcnDataTableProps
   const toggleRow = (id: number) => {
     setSelected((prev) => {
       const copy = new Set(prev);
-      copy.has(id) ? copy.delete(id) : copy.add(id);
+      if (copy.has(id)) {
+        copy.delete(id);
+      } else {
+        copy.add(id);
+      }
       return copy;
     });
   };

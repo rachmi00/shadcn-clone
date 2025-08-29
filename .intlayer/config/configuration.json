@@ -37,7 +37,7 @@
       ".expo",
       "dist"
     ],
-    "watch": true,
+    "watch": false,
     "contentDir": [
       "C:\\Users\\Agyingi\\Desktop\\COURSES\\shadcndashboard\\dashboard-clone"
     ],
@@ -93,7 +93,7 @@
   },
   "ai": {},
   "build": {
-    "optimize": false,
+    "optimize": true,
     "importMode": "static",
     "traversePattern": [
       "**/*.{js,ts,mjs,cjs,jsx,tsx,mjx,cjx,vue,svelte,svte}",
