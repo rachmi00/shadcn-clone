@@ -1,0 +1,41 @@
+{
+  "key": "sectionsTable",
+  "content": {
+    "columns": {
+      "sectionType": "Type de section",
+      "status": "Statut",
+      "target": "Cible",
+      "limit": "Limite",
+      "reviewer": "Réviseur",
+      "header": "En-tête"
+    },
+    "status": {
+      "done": "Terminé",
+      "inProcess": "En cours"
+    },
+    "actions": {
+      "assignReviewer": "Assigner un réviseur"
+    },
+    "pagination": {
+      "rowsSelected": "ligne(s) sélectionnée(s)",
+      "rowsPerPage": "Lignes par page",
+      "pageOf": "Page",
+      "of": "sur"
+    },
+    "sampleData": {
+      "sectionTypes": {
+        "narrative": "Narratif",
+        "coverPage": "Page de couverture",
+        "tableOfContents": "Table des matières",
+        "technicalContent": "Contenu technique"
+      },
+      "headers": {
+        "coverPage": "Page de couverture",
+        "tableOfContents": "Table des matières",
+        "executiveSummary": "Résumé exécutif",
+        "technicalApproach": "Approche technique"
+      }
+    }
+  },
+  "locale": "fr"
+}

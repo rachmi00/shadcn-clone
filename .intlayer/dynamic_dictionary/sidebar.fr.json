@@ -1,0 +1,34 @@
+{
+  "key": "sidebar",
+  "content": {
+    "company": {
+      "name": "Acme Inc."
+    },
+    "sections": {
+      "home": "Accueil",
+      "documents": "Documents"
+    },
+    "navigation": {
+      "dashboard": "Tableau de bord",
+      "lifecycle": "Cycle de vie",
+      "analytics": "Analytiques",
+      "projects": "Projets",
+      "team": "Équipe",
+      "dataLibrary": "Bibliothèque de données",
+      "reports": "Rapports",
+      "wordAssistant": "Assistant Word",
+      "more": "Plus",
+      "settings": "Paramètres",
+      "getHelp": "Obtenir de l'aide",
+      "search": "Rechercher"
+    },
+    "user": {
+      "name": "shadcn",
+      "email": "m@example.com"
+    },
+    "accessibility": {
+      "more": "Plus"
+    }
+  },
+  "locale": "fr"
+}

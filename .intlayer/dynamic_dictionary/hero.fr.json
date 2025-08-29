@@ -1,0 +1,15 @@
+{
+  "key": "hero",
+  "content": {
+    "badge": {
+      "text": "Nouveau composant calendrier"
+    },
+    "title": "Construisez votre bibliothèque de composants",
+    "description": "Un ensemble de composants magnifiquement conçus et accessibles avec une plateforme de distribution de code. Fonctionne avec vos frameworks préférés. Open Source. Code ouvert",
+    "buttons": {
+      "getStarted": "Commencer",
+      "browseBlocks": "Parcourir les blocs"
+    }
+  },
+  "locale": "fr"
+}

@@ -1,0 +1,15 @@
+{
+  "key": "hero",
+  "content": {
+    "badge": {
+      "text": "New Calendar Component"
+    },
+    "title": "Build Your Component library",
+    "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code",
+    "buttons": {
+      "getStarted": "Get Started",
+      "browseBlocks": "Browse Blocks"
+    }
+  },
+  "locale": "en"
+}

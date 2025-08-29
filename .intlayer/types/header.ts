@@ -1,0 +1,103 @@
+/* eslint-disable */
+export default {
+  key: "header",
+  content: {
+    navigation: {
+      docs: {
+        nodeType: "translation",
+        translation: {
+          en: "Docs",
+          fr: "Documentation"
+        }
+      },
+      components: {
+        nodeType: "translation",
+        translation: {
+          en: "Components",
+          fr: "Composants"
+        }
+      },
+      blocks: {
+        nodeType: "translation",
+        translation: {
+          en: "Blocks",
+          fr: "Blocs"
+        }
+      },
+      charts: {
+        nodeType: "translation",
+        translation: {
+          en: "Charts",
+          fr: "Graphiques"
+        }
+      },
+      themes: {
+        nodeType: "translation",
+        translation: {
+          en: "Themes",
+          fr: "Thèmes"
+        }
+      },
+      colors: {
+        nodeType: "translation",
+        translation: {
+          en: "Colors",
+          fr: "Couleurs"
+        }
+      }
+    },
+    search: {
+      placeholder: {
+        nodeType: "translation",
+        translation: {
+          en: "Search documentation...",
+          fr: "Rechercher dans la documentation..."
+        }
+      },
+      shortPlaceholder: {
+        nodeType: "translation",
+        translation: {
+          en: "Search...",
+          fr: "Rechercher..."
+        }
+      }
+    },
+    aria: {
+      openMenu: {
+        nodeType: "translation",
+        translation: {
+          en: "Open menu",
+          fr: "Ouvrir le menu"
+        }
+      },
+      searchDocumentation: {
+        nodeType: "translation",
+        translation: {
+          en: "Search documentation",
+          fr: "Rechercher dans la documentation"
+        }
+      },
+      searchInput: {
+        nodeType: "translation",
+        translation: {
+          en: "Search input",
+          fr: "Champ de recherche"
+        }
+      },
+      github: {
+        nodeType: "translation",
+        translation: {
+          en: "GitHub",
+          fr: "GitHub"
+        }
+      },
+      toggleContrast: {
+        nodeType: "translation",
+        translation: {
+          en: "Toggle contrast",
+          fr: "Basculer le contraste"
+        }
+      }
+    }
+  }
+} as const;

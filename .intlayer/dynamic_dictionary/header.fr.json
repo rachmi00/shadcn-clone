@@ -1,0 +1,25 @@
+{
+  "key": "header",
+  "content": {
+    "navigation": {
+      "docs": "Documentation",
+      "components": "Composants",
+      "blocks": "Blocs",
+      "charts": "Graphiques",
+      "themes": "Thèmes",
+      "colors": "Couleurs"
+    },
+    "search": {
+      "placeholder": "Rechercher dans la documentation...",
+      "shortPlaceholder": "Rechercher..."
+    },
+    "aria": {
+      "openMenu": "Ouvrir le menu",
+      "searchDocumentation": "Rechercher dans la documentation",
+      "searchInput": "Champ de recherche",
+      "github": "GitHub",
+      "toggleContrast": "Basculer le contraste"
+    }
+  },
+  "locale": "fr"
+}

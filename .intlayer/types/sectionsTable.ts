@@ -1,0 +1,167 @@
+/* eslint-disable */
+export default {
+  key: "sectionsTable",
+  content: {
+    columns: {
+      sectionType: {
+        nodeType: "translation",
+        translation: {
+          en: "Section Type",
+          fr: "Type de section"
+        }
+      },
+      status: {
+        nodeType: "translation",
+        translation: {
+          en: "Status",
+          fr: "Statut"
+        }
+      },
+      target: {
+        nodeType: "translation",
+        translation: {
+          en: "Target",
+          fr: "Cible"
+        }
+      },
+      limit: {
+        nodeType: "translation",
+        translation: {
+          en: "Limit",
+          fr: "Limite"
+        }
+      },
+      reviewer: {
+        nodeType: "translation",
+        translation: {
+          en: "Reviewer",
+          fr: "Réviseur"
+        }
+      },
+      header: {
+        nodeType: "translation",
+        translation: {
+          en: "Header",
+          fr: "En-tête"
+        }
+      }
+    },
+    status: {
+      done: {
+        nodeType: "translation",
+        translation: {
+          en: "Done",
+          fr: "Terminé"
+        }
+      },
+      inProcess: {
+        nodeType: "translation",
+        translation: {
+          en: "In Process",
+          fr: "En cours"
+        }
+      }
+    },
+    actions: {
+      assignReviewer: {
+        nodeType: "translation",
+        translation: {
+          en: "Assign reviewer",
+          fr: "Assigner un réviseur"
+        }
+      }
+    },
+    pagination: {
+      rowsSelected: {
+        nodeType: "translation",
+        translation: {
+          en: "row(s) selected",
+          fr: "ligne(s) sélectionnée(s)"
+        }
+      },
+      rowsPerPage: {
+        nodeType: "translation",
+        translation: {
+          en: "Rows per page",
+          fr: "Lignes par page"
+        }
+      },
+      pageOf: {
+        nodeType: "translation",
+        translation: {
+          en: "Page",
+          fr: "Page"
+        }
+      },
+      of: {
+        nodeType: "translation",
+        translation: {
+          en: "of",
+          fr: "sur"
+        }
+      }
+    },
+    sampleData: {
+      sectionTypes: {
+        narrative: {
+          nodeType: "translation",
+          translation: {
+            en: "Narrative",
+            fr: "Narratif"
+          }
+        },
+        coverPage: {
+          nodeType: "translation",
+          translation: {
+            en: "Cover page",
+            fr: "Page de couverture"
+          }
+        },
+        tableOfContents: {
+          nodeType: "translation",
+          translation: {
+            en: "Table of contents",
+            fr: "Table des matières"
+          }
+        },
+        technicalContent: {
+          nodeType: "translation",
+          translation: {
+            en: "Technical content",
+            fr: "Contenu technique"
+          }
+        }
+      },
+      headers: {
+        coverPage: {
+          nodeType: "translation",
+          translation: {
+            en: "Cover page",
+            fr: "Page de couverture"
+          }
+        },
+        tableOfContents: {
+          nodeType: "translation",
+          translation: {
+            en: "Table of contents",
+            fr: "Table des matières"
+          }
+        },
+        executiveSummary: {
+          nodeType: "translation",
+          translation: {
+            en: "Executive summary",
+            fr: "Résumé exécutif"
+          }
+        },
+        technicalApproach: {
+          nodeType: "translation",
+          translation: {
+            en: "Technical approach",
+            fr: "Approche technique"
+          }
+        }
+      }
+    }
+  }
+} as const;

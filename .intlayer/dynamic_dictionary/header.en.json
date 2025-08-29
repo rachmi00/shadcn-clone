@@ -1,0 +1,25 @@
+{
+  "key": "header",
+  "content": {
+    "navigation": {
+      "docs": "Docs",
+      "components": "Components",
+      "blocks": "Blocks",
+      "charts": "Charts",
+      "themes": "Themes",
+      "colors": "Colors"
+    },
+    "search": {
+      "placeholder": "Search documentation...",
+      "shortPlaceholder": "Search..."
+    },
+    "aria": {
+      "openMenu": "Open menu",
+      "searchDocumentation": "Search documentation",
+      "searchInput": "Search input",
+      "github": "GitHub",
+      "toggleContrast": "Toggle contrast"
+    }
+  },
+  "locale": "en"
+}

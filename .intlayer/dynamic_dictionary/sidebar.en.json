@@ -1,0 +1,34 @@
+{
+  "key": "sidebar",
+  "content": {
+    "company": {
+      "name": "Acme Inc."
+    },
+    "sections": {
+      "home": "Home",
+      "documents": "Documents"
+    },
+    "navigation": {
+      "dashboard": "Dashboard",
+      "lifecycle": "Lifecycle",
+      "analytics": "Analytics",
+      "projects": "Projects",
+      "team": "Team",
+      "dataLibrary": "Data Library",
+      "reports": "Reports",
+      "wordAssistant": "Word Assistant",
+      "more": "More",
+      "settings": "Settings",
+      "getHelp": "Get Help",
+      "search": "Search"
+    },
+    "user": {
+      "name": "shadcn",
+      "email": "m@example.com"
+    },
+    "accessibility": {
+      "more": "More"
+    }
+  },
+  "locale": "en"
+}

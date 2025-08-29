@@ -1,0 +1,63 @@
+{
+  "key": "dashboard",
+  "content": {
+    "navigation": {
+      "example": "Exemple",
+      "dashboard": "Tableau de bord",
+      "tasks": "Tâches",
+      "playground": "Terrain de jeu",
+      "authentication": "Authentification"
+    },
+    "theme": {
+      "label": "Thème:",
+      "default": "Par défaut",
+      "scaled": "Mis à l'échelle",
+      "mono": "Mono",
+      "colors": "Couleurs",
+      "blue": "Bleu",
+      "green": "Vert",
+      "amber": "Ambre",
+      "rose": "Rose",
+      "purple": "Violet",
+      "orange": "Orange",
+      "teal": "Sarcelle"
+    },
+    "documents": {
+      "title": "Documents",
+      "quickCreate": "Création rapide"
+    },
+    "metrics": {
+      "totalRevenue": {
+        "title": "Chiffre d'affaires total",
+        "description1": "En hausse ce mois-ci",
+        "description2": "Visiteurs des 6 derniers mois"
+      },
+      "newCustomers": {
+        "title": "Nouveaux clients",
+        "description1": "En baisse de 20% cette période",
+        "description2": "L'acquisition nécessite de l'attention"
+      },
+      "activeAccounts": {
+        "title": "Comptes actifs",
+        "description1": "Forte rétention des utilisateurs",
+        "description2": "L'engagement dépasse les objectifs"
+      },
+      "growthRate": {
+        "title": "Taux de croissance",
+        "description1": "Augmentation constante des performances",
+        "description2": "Répond aux projections de croissance"
+      }
+    },
+    "chart": {
+      "title": "Visiteurs totaux",
+      "description": "Total des 3 derniers mois",
+      "periods": {
+        "last3Months": "3 derniers mois",
+        "last30Days": "30 derniers jours",
+        "last7Days": "7 derniers jours"
+      },
+      "placeholder": "Visualisations graphiques"
+    }
+  },
+  "locale": "fr"
+}

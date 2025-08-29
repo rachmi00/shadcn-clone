@@ -1,0 +1,144 @@
+[
+  {
+    "key": "sidebar",
+    "content": {
+      "company": {
+        "name": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Acme Inc.",
+            "fr": "Acme Inc."
+          }
+        }
+      },
+      "sections": {
+        "home": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Home",
+            "fr": "Accueil"
+          }
+        },
+        "documents": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Documents",
+            "fr": "Documents"
+          }
+        }
+      },
+      "navigation": {
+        "dashboard": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Dashboard",
+            "fr": "Tableau de bord"
+          }
+        },
+        "lifecycle": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Lifecycle",
+            "fr": "Cycle de vie"
+          }
+        },
+        "analytics": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Analytics",
+            "fr": "Analytiques"
+          }
+        },
+        "projects": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Projects",
+            "fr": "Projets"
+          }
+        },
+        "team": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Team",
+            "fr": "Équipe"
+          }
+        },
+        "dataLibrary": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Data Library",
+            "fr": "Bibliothèque de données"
+          }
+        },
+        "reports": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Reports",
+            "fr": "Rapports"
+          }
+        },
+        "wordAssistant": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Word Assistant",
+            "fr": "Assistant Word"
+          }
+        },
+        "more": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "More",
+            "fr": "Plus"
+          }
+        },
+        "settings": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Settings",
+            "fr": "Paramètres"
+          }
+        },
+        "getHelp": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Get Help",
+            "fr": "Obtenir de l'aide"
+          }
+        },
+        "search": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "Search",
+            "fr": "Rechercher"
+          }
+        }
+      },
+      "user": {
+        "name": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "shadcn",
+            "fr": "shadcn"
+          }
+        },
+        "email": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "m@example.com",
+            "fr": "m@example.com"
+          }
+        }
+      },
+      "accessibility": {
+        "more": {
+          "nodeType": "translation",
+          "translation": {
+            "en": "More",
+            "fr": "Plus"
+          }
+        }
+      }
+    },
+    "filePath": "C:/Users/Agyingi/Desktop/COURSES/shadcndashboard/dashboard-clone/src/components/sections/Sidebar.content.ts"
+  }
+]

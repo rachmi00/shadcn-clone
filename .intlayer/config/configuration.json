@@ -1,0 +1,103 @@
+{
+  "internationalization": {
+    "locales": [
+      "en"
+    ],
+    "requiredLocales": [],
+    "strictMode": "inclusive",
+    "defaultLocale": "en"
+  },
+  "middleware": {
+    "headerName": "x-intlayer-locale",
+    "cookieName": "INTLAYER_LOCALE",
+    "prefixDefault": false,
+    "basePath": "",
+    "serverSetCookie": "always",
+    "noPrefix": false,
+    "detectLocaleOnPrefetchNoPrefix": false
+  },
+  "content": {
+    "fileExtensions": [
+      ".content.ts",
+      ".content.js",
+      ".content.cjs",
+      ".content.cjx",
+      ".content.mjs",
+      ".content.mjx",
+      ".content.json",
+      ".content.tsx",
+      ".content.jsx"
+    ],
+    "baseDir": "C:\\Users\\Agyingi\\Desktop\\COURSES\\shadcndashboard\\dashboard-clone",
+    "excludedPath": [
+      "node_modules",
+      ".intlayer",
+      ".next",
+      ".nuxt",
+      ".expo",
+      "dist"
+    ],
+    "watch": true,
+    "contentDir": [
+      "C:\\Users\\Agyingi\\Desktop\\COURSES\\shadcndashboard\\dashboard-clone"
+    ],
+    "dictionariesDir": "C:\\Users\\Agyingi\\Desktop\\COURSES\\shadcndashboard\\dashboard-clone\\.intlayer\\dictionary",
+    "moduleAugmentationDir": "C:\\Users\\Agyingi\\Desktop\\COURSES\\shadcndashboard\\dashboard-clone\\.intlayer\\types",
+    "dictionaryOutput": [
+      "intlayer"
+    ],
+    "unmergedDictionariesDir": "C:\\Users\\Agyingi\\Desktop\\COURSES\\shadcndashboard\\dashboard-clone\\.intlayer\\unmerged_dictionary",
+    "dynamicDictionariesDir": "C:\\Users\\Agyingi\\Desktop\\COURSES\\shadcndashboard\\dashboard-clone\\.intlayer\\dynamic_dictionary",
+    "i18nextResourcesDir": "C:\\Users\\Agyingi\\Desktop\\COURSES\\shadcndashboard\\dashboard-clone\\i18next_resources",
+    "reactIntlMessagesDir": "C:\\Users\\Agyingi\\Desktop\\COURSES\\shadcndashboard\\dashboard-clone\\intl_messages",
+    "typesDir": "C:\\Users\\Agyingi\\Desktop\\COURSES\\shadcndashboard\\dashboard-clone\\.intlayer\\types",
+    "mainDir": "C:\\Users\\Agyingi\\Desktop\\COURSES\\shadcndashboard\\dashboard-clone\\.intlayer\\main",
+    "configDir": "C:\\Users\\Agyingi\\Desktop\\COURSES\\shadcndashboard\\dashboard-clone\\.intlayer\\config",
+    "watchedFilesPattern": [
+      "/**/*.content.ts",
+      "/**/*.content.js",
+      "/**/*.content.cjs",
+      "/**/*.content.cjx",
+      "/**/*.content.mjs",
+      "/**/*.content.mjx",
+      "/**/*.content.json",
+      "/**/*.content.tsx",
+      "/**/*.content.jsx"
+    ],
+    "watchedFilesPatternWithPath": [
+      "C:/Users/Agyingi/Desktop/COURSES/shadcndashboard/dashboard-clone/**/*.content.ts",
+      "C:/Users/Agyingi/Desktop/COURSES/shadcndashboard/dashboard-clone/**/*.content.js",
+      "C:/Users/Agyingi/Desktop/COURSES/shadcndashboard/dashboard-clone/**/*.content.cjs",
+      "C:/Users/Agyingi/Desktop/COURSES/shadcndashboard/dashboard-clone/**/*.content.cjx",
+      "C:/Users/Agyingi/Desktop/COURSES/shadcndashboard/dashboard-clone/**/*.content.mjs",
+      "C:/Users/Agyingi/Desktop/COURSES/shadcndashboard/dashboard-clone/**/*.content.mjx",
+      "C:/Users/Agyingi/Desktop/COURSES/shadcndashboard/dashboard-clone/**/*.content.json",
+      "C:/Users/Agyingi/Desktop/COURSES/shadcndashboard/dashboard-clone/**/*.content.tsx",
+      "C:/Users/Agyingi/Desktop/COURSES/shadcndashboard/dashboard-clone/**/*.content.jsx"
+    ],
+    "outputFilesPatternWithPath": "C:/Users/Agyingi/Desktop/COURSES/shadcndashboard/dashboard-clone/.intlayer/dictionary/**/*.json"
+  },
+  "editor": {
+    "applicationURL": "",
+    "editorURL": "http://localhost:8000",
+    "cmsURL": "https://intlayer.org",
+    "backendURL": "https://back.intlayer.org",
+    "port": 8000,
+    "enabled": true,
+    "dictionaryPriorityStrategy": "local_first",
+    "hotReload": false
+  },
+  "log": {
+    "mode": "default",
+    "prefix": "\u001b[90m[intlayer] \u001b[0m"
+  },
+  "ai": {},
+  "build": {
+    "optimize": false,
+    "importMode": "static",
+    "traversePattern": [
+      "**/*.{js,ts,mjs,cjs,jsx,tsx,mjx,cjx,vue,svelte,svte}",
+      "!**/node_modules/**"
+    ]
+  }
+}
